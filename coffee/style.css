@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
   list-style: none;
+  display: inline;
 }
 blockquote, q {
   quotes: none;
@@ -55,10 +56,15 @@ header{
   background-image:url(images/beans.jpg);
 }
 nav{
-  display:inline;
-}
-.primary-nav{
+  display:block;
   background-color:rgb(33, 20, 15);
+  padding:8px 0;
+  overflow: visible;
+}
+
+.primary-nav > li {
+  display:inherit;
+  padding:20px;
 }
 
 article{
@@ -96,7 +102,6 @@ a{
 }
 
 a:hover {color:white;}
-
 
 
 
