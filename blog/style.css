@@ -105,10 +105,12 @@ table {
 /* Super Blog CSS */
 
 header{
-  vertical-align:center;
+  padding-bottom:25px;
   
 }
+header > img{
 
+}
 .primary-nav{
   text-align:right;
   border-bottom:solid;
@@ -125,6 +127,8 @@ header{
 }
 
 .secondary-nav{
+  height:923px;
+  width:154px;
   text-align:left;
   vertical-align:left;
   float:left;
@@ -132,12 +136,13 @@ header{
   font-size:1em;
 }
 .secondary-nav > ol > li{
-  padding:10px;
-  padding-right:50px;
+/*  padding:10px;*/
+/*  padding-right:50px;*/
 }
 section{
   display:inline;
   clear:right;
+  padding-top:10px;
 }
 article{
   display:inline;
@@ -160,8 +165,13 @@ p{
 
 }
 footer{
+  padding:5px;
+  border-top:solid;
+  border-top-color:gray;
+  border-width:2px;
+  margin-top:20px;
   text-align:left;
-  clear:both;
+/*  clear:both;*/
   font-family: 'LeagueGothicRegular';
 }
 
